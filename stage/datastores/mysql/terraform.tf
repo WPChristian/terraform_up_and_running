@@ -4,6 +4,6 @@ terraform {
 		bucket		= "terraform-up-and-running-state-cj-1"
 		dynamodb_table	= "terraform-state-lock-dynamo"
 		region		= "us-east-1"
-		key 		= "stage/services/webserver-cluster/terraform.tfstate"
+		key 		= "stage/datastores/mysql/terraform.tfstate"
 	}
 }
