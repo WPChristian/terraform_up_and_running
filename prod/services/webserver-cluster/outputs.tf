@@ -1,3 +1,3 @@
-output "stage_elb_dns_name" {
+output "prod_elb_dns_name" {
   value = module.webserver_cluster.elb_dns_name
 }
